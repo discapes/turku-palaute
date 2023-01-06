@@ -34,7 +34,7 @@
 			<h2>{item.title}</h2>
 			<p>{item.description.replaceAll('&#xD;', '\n').replaceAll('\n\n', '\n')}</p>
 			<p>
-				{formatDate(toTZ(item.pubDate, 'Europe/Helsinki'))}
+				Julkaistu {formatDate(toTZ(item.pubDate, 'Europe/Helsinki'))}
 				<a target="_blank" href={item.link}>🔗</a>
 			</p>
 			<p />
