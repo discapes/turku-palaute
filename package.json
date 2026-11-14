@@ -10,15 +10,15 @@
     "format": "prettier --plugin-search-dir . --write ."
   },
   "devDependencies": {
-    "@sveltejs/adapter-auto": "^7.0.0",
-    "@sveltejs/adapter-cloudflare": "^7.2.4",
-    "@sveltejs/kit": "^2.49.4",
-    "eslint": "^9.39.2",
+    "@sveltejs/adapter-auto": "^8.0.0",
+    "@sveltejs/adapter-cloudflare": "^8.0.0",
+    "@sveltejs/kit": "^3.0.0",
+    "eslint": "^10.0.0",
     "eslint-config-prettier": "^10.1.8",
     "prettier": "^3.7.4",
-    "prettier-plugin-svelte": "^3.4.1",
+    "prettier-plugin-svelte": "^4.0.0",
     "svelte": "^5.46.1",
-    "vite": "^7.3.1"
+    "vite": "^8.0.0"
   },
   "type": "module",
   "dependencies": {
